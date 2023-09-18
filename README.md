@@ -40,7 +40,6 @@ pip install -r requirements.txt
     gan_yellow
         fake/
         true/
-   
 ```
 
 ## Getting Started

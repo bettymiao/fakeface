@@ -8,8 +8,6 @@ __pycache__
 *.bak
 *.pth
 
-/fire/__pycache__
-/data
-/pretrained
-/output*
+pretrained
+output*
 

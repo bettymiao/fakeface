@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-    Download the five data sets respectively, unzip them to the data folder, and use the data processing code in data to process the data sets.
++ Download the five data sets respectively, unzip them to the data folder, and use the data processing code in data to process the data sets.
 
 ```
 /data
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### train
 
-    We use one Nvidia Tesla 4090 (24G) GPU for training. You need to modify the`trainval_path` in the `config.py` file before training.
++ We use one Nvidia Tesla 4090 (24G) GPU for training. You need to modify the `trainval_path` in the `config.py` file before training.
 
 ```
 python train.py
@@ -55,7 +55,7 @@ python train.py
 
 ### Test
 
-    You need to modify the`folder_name` in the `evaluate.py` file before testing.
+- You need to modify the `folder_name` in the `evaluate.py` file before testing.
 
 ```
 python evaluate.py
